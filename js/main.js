@@ -75,16 +75,6 @@ function detailProduct(index) {
             <p class="notebox-title">Ghi chú</p>
             <textarea class="text-note" id="popup-detail-note" placeholder="Nhập thông tin cần lưu ý..."></textarea>
     </div>
-    <div class="modal-footer">
-        <div class="price-total">
-            <span class="thanhtien">Thành tiền</span>
-            <span class="price">${vnd(infoProduct.price)}</span>
-        </div>
-        <div class="modal-footer-control">
-            <button class="button-dathangngay" data-product="${infoProduct.id}">Đặt hàng ngay</button>
-            <button class="button-dat" id="add-cart" onclick="animationCart()"><i class="fa-light fa-basket-shopping"></i></button>
-        </div>
-    </div>
     <div class="notebox-1">
             <img class="product-image-chi-tiet" src="${infoProduct.img01}" alt="">
             <img class="product-image-chi-tiet" src="${infoProduct.img02}" alt="">
@@ -98,6 +88,17 @@ function detailProduct(index) {
             <img class="product-image-chi-tiet" src="${infoProduct.img10}" alt="">
             <video class="product-image-chi-tiet" src="${infoProduct.video}" controls autoplay></video>
     </div>
+    <div class="modal-footer">
+        <div class="price-total">
+            <span class="thanhtien">Thành tiền</span>
+            <span class="price">${vnd(infoProduct.price)}</span>
+        </div>
+        <div class="modal-footer-control">
+            <button class="button-dathangngay" data-product="${infoProduct.id}">Đặt hàng ngay</button>
+            <button class="button-dat" id="add-cart" onclick="animationCart()"><i class="fa-light fa-basket-shopping"></i></button>
+        </div>
+    </div>
+    
     `;
     document.querySelector('#product-detail-content').innerHTML = modalHtml;
     modal.classList.add('open');
