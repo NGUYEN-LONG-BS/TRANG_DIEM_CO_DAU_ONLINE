@@ -1037,9 +1037,11 @@ h2.product-title {
     justify-content: space-between;
     border-top: 1px solid #eee;
     background-color: var(--white);
-    position: static;
+    /* position: static; */
     /* position: fixed; */
     /* position: sticky; */
+    position: relative;
+    left: -20px;
     bottom: 0;
 }
 

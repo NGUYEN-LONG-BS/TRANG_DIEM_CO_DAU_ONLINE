@@ -147,9 +147,11 @@
     }
 
     .modal-footer {
-        position: static;
+        /* position: static; */
         /* position: fixed; */
         /* position: sticky; */
+        position: relative;
+        left: -20px;
         bottom: 0;
         width: 100%;
     }
