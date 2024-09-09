@@ -1038,7 +1038,7 @@ h2.product-title {
     border-top: 1px solid #eee;
     background-color: var(--white);
     position: sticky;
-    bottom: 0px;
+    bottom: 0;
 }
 
 .price-total {
