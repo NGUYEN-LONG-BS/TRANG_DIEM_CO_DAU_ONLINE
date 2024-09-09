@@ -147,7 +147,7 @@
     }
 
     .modal-footer {
-        position: fixed;
+        position: sticky;
         bottom: 0;
         width: 100%;
     }
