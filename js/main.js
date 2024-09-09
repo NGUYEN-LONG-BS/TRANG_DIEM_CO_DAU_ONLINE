@@ -88,18 +88,19 @@ function detailProduct(index) {
             <img class="product-image-chi-tiet" src="${infoProduct.img10}" alt="">
             <video class="product-image-chi-tiet" src="${infoProduct.video}" controls autoplay></video>
     </div>
-    <div class="modal-footer">
-        <div class="price-total">
-            <span class="thanhtien">Thành tiền</span>
-            <span class="price">${vnd(infoProduct.price)}</span>
-        </div>
-        <div class="modal-footer-control">
-            <button class="button-dathangngay" data-product="${infoProduct.id}">Đặt hàng ngay</button>
-            <button class="button-dat" id="add-cart" onclick="animationCart()"><i class="fa-light fa-basket-shopping"></i></button>
-        </div>
-    </div>
-    
     `;
+    // <div class="modal-footer">
+    //     <div class="price-total">
+    //         <span class="thanhtien">Thành tiền</span>
+    //         <span class="price">${vnd(infoProduct.price)}</span>
+    //     </div>
+    //     <div class="modal-footer-control">
+    //         <button class="button-dathangngay" data-product="${infoProduct.id}">Đặt hàng ngay</button>
+    //         <button class="button-dat" id="add-cart" onclick="animationCart()"><i class="fa-light fa-basket-shopping"></i></button>
+    //     </div>
+    // </div>
+    
+    
     document.querySelector('#product-detail-content').innerHTML = modalHtml;
     modal.classList.add('open');
     body.style.overflow = "hidden";
