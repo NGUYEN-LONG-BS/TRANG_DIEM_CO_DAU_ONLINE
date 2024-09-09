@@ -1,4 +1,4 @@
-@media (min-width: 1280px) {
+@media (max-width: 991.98px) {
     .col-product {
         width: 33.33%;
     }
@@ -46,13 +46,13 @@
     }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 827px) {
     .advanced-search-price input{
         width: 70px;
     }
 }
 
-@media (min-width: 600px) {
+@media (max-width: 785px) {
     .header-middle-right-item>span,.auth-container{
         display: none;
     }
@@ -75,7 +75,7 @@
     }
 }
 
-@media (min-width: 320px) {
+@media (max-width: 575.98px) {
     .header-middle-center{
         display: none;
     }
@@ -147,8 +147,8 @@
     }
 
     .modal-footer {
-        /* position: sticky;
-        bottom: 0; */
+        position: sticky;
+        bottom: 0;
         width: 100%;
     }
 
