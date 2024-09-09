@@ -766,6 +766,27 @@ function createProduct() {
         {
             id: 38,
             status: 1, 
+            title: 'Trang điểm sự kiện lung linh - cuốn hút',
+            img: './assets/img/products/SU_KIEN_02-00.jpg',
+            img01: './assets/img/products/SU_KIEN_02-01.jpg',
+            img02: './assets/img/products/SU_KIEN_02-02.jpg',
+            img03: '',
+            img04: '',
+            img05: '',
+            img06: '',
+            img07: '',
+            img08: '',
+            img09: '',
+            img10: '',
+            category: 'Sự kiện',
+            MUA: 'Trịnh Văn Phi Long',
+            price: 500000,
+            desc: 'Trang điểm mẫu ảnh, chụp ảnh thời trang lữu giữ mãi thời thanh xuân xinh đẹp.'
+        },
+
+        {
+            id: 3800,
+            status: 1, 
             title: 'Mẫu ảnh thời trang chuyên nghiệp',
             img: './assets/img/products/MAU_ANH_18-00.jpg',
             img01: './assets/img/products/MAU_ANH_18-01.jpg',
