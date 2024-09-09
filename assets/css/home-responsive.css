@@ -151,8 +151,7 @@
         /* position: fixed; */
         /* position: sticky; */
         position: relative;
-        left: -20px;
-        bottom: 0;
+        bottom: -20px;
         width: 100%;
     }
 
