@@ -88,7 +88,6 @@ function detailProduct(index) {
             <img class="product-image-chi-tiet" src="${infoProduct.img10}" alt="">
             <video class="product-image-chi-tiet" src="${infoProduct.video}" controls autoplay></video>
     </div>
-    
     <div class="modal-footer">
         <div class="price-total">
             <span class="thanhtien">Thành tiền</span>
