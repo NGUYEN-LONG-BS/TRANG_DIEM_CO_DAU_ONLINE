@@ -77,6 +77,7 @@ function createProduct() {
             img08: '',
             img09: '',
             img10: '',
+            video: './assets/video/DI_TIEC_DI_CHOI_01-VIDEO.mp4',
             category: 'Đi tiệc - Đi chơi',
             MUA: 'Trịnh Văn Phi Long',
             price: 500000,
