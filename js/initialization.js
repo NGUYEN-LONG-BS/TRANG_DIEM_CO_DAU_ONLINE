@@ -63,6 +63,7 @@ function createProduct() {
             price: 500000,
             desc: 'Trang điểm mẫu ảnh, chụp ảnh thời trang lữu giữ mãi thời thanh xuân xinh đẹp.'
         },
+
         {
             id: 4,
             status: 1, title: 'Giao diện đi chơi siêu xịn',
@@ -1246,6 +1247,31 @@ function createProduct() {
             MUA: 'Trịnh Văn Phi Long',
             price: 500000,
             desc: 'Trang điểm chụp hình kỷ yếu - tốt nghiệp chất lắm người ơi, Lưu giữ mãi cái đẹp của tuổi trẻ - một thời không thể quên.'
+        },
+
+        {
+            id: 61,
+            status: 1, 
+            title: 'Mẫu ảnh cuốn hút',
+            img: './assets/img/products/MAU_ANH_21-00.jpg',
+            img01: './assets/img/products/MAU_ANH_21-01.jpg',
+            img02: './assets/img/products/MAU_ANH_21-02jpg',
+            img03: './assets/img/products/MAU_ANH_21-03.jpg',
+            img04: './assets/img/products/MAU_ANH_21-04.jpg',
+            img05: './assets/img/products/MAU_ANH_21-05.jpg',
+            img06: './assets/img/products/MAU_ANH_21-06.jpg',
+            img07: './assets/img/products/MAU_ANH_21-07.jpg',
+            img08: './assets/img/products/MAU_ANH_21-08.jpg',
+            img09: './assets/img/products/MAU_ANH_21-09.jpg',
+            img10: './assets/img/products/MAU_ANH_21-10.jpg',
+            img11: './assets/img/products/MAU_ANH_21-11.jpg',
+            img12: './assets/img/products/MAU_ANH_21-12.jpg',
+            img13: './assets/img/products/MAU_ANH_21-13.jpg',
+            video: './assets/video/MAU_ANH_21.mp4',
+            category: 'Mẫu ảnh - Thời trang',
+            MUA: 'Trịnh Văn Phi Long',
+            price: 500000,
+            desc: 'Trang điểm mẫu ảnh, chụp ảnh thời trang lữu giữ mãi thời thanh xuân xinh đẹp.'
         },
         
         ]

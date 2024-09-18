@@ -86,6 +86,11 @@ function detailProduct(index) {
             <img class="product-image-chi-tiet" src="${infoProduct.img08}" alt="">
             <img class="product-image-chi-tiet" src="${infoProduct.img09}" alt="">
             <img class="product-image-chi-tiet" src="${infoProduct.img10}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img11}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img12}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img13}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img14}" alt="">
+            <img class="product-image-chi-tiet" src="${infoProduct.img15}" alt="">
             <video class="product-image-chi-tiet" src="${infoProduct.video}" controls autoplay></video>
     </div>
     <div class="modal-footer">
