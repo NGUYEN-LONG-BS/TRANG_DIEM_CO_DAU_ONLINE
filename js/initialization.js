@@ -1285,8 +1285,8 @@ function createAdminAccount() {
     if (!accounts) {
         accounts = [];
         accounts.push({
-            fullname: "Hoàng Gia Bảo",
-            phone: "hgbaodev",
+            fullname: "BomBig - Sexy all day",
+            phone: "0932 699 082",
             password: "123456",
             address: 'https://github.com/hgbaodev',
             email: 'musicanime2501@gmail.com',
